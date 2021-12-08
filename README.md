@@ -1,2 +1,4 @@
 # Landing-Webpage
-Creating a landing page for a website
+Using HTML and CSS to create a landing page for a website
+
+
