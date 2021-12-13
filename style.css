@@ -1,7 +1,18 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
 body{
     display: flex;
     flex-direction: column;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 
@@ -25,7 +36,6 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 20px;
-    margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -55,7 +65,7 @@ a{
     color: white;
     width: 600px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .banner1para{
@@ -67,11 +77,131 @@ a{
     flex-wrap: wrap;
 }
 
-button{
+.banner1 button{
     background-color: #3882F6;
     border-radius: 7px;
     font-size: 20px;
     color: white;
     padding: 5px 15px;
     border:none
+}
+
+.banner2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.gallerytitle{
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+img[src="shihtzu.jpg"]{
+    width: 300px;
+    height: auto;
+    display: flex;
+    border-style: none;
+    border-radius: 0%;
+    flex-shrink: 2;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.quotebanner{
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotetext{
+    font-weight: lighter;
+    font-size: 36PX;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    font-weight:bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+
+}
+
+
+.signup{
+    display: flex;
+    margin: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 50px;
+    gap: 60px;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    flex-shrink: 3;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.smalltitle{
+
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.signup button{
+    background-color: #3882F6;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    padding: 5px 15px;
+    border: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+p{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
